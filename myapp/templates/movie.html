@@ -1,0 +1,24 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  
+    <title>movie</title>
+    <style>
+      
+    </style>
+  </head>
+  <body>
+    <div id="main" class="container-fluid">
+      <button>click</button>
+      <p>data</p>
+    </div>
+    <script>
+      $.get('https://www.facebook.com', (data) =>{
+        $("div").html(data);
+      })
+    </script>
+  </body>
+</html>
